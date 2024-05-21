@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: api-config
+  namespace: nagpdemo
+data:
+  DATABASE_NAME: mydatabase
+  DATABASE_USER: myuser
+  DATABASE_HOST: mysql
