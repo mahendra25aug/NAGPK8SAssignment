@@ -32,7 +32,7 @@ app.get('/records', async (req, res) => {
 
     // Format the results as an HTML table
     let html = '<table><tr><th>ID</th><th>Name</th></tr>';
-    results.forEach((row) => {
+    rows.forEach((row) => {
       html += `<tr><td>${row.id}</td><td>${row.name}</td></tr>`;
     });
     html += '</table>';
@@ -45,7 +45,7 @@ app.get('/records', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-  res.send('Welcome. I am ready with version 1.');
+  res.send('Welcome to K8S. I am ready with version 2.');
 
   });
 
