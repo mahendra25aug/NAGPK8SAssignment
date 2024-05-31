@@ -37,7 +37,7 @@ app.get('/records', async (req, res) => {
     });
     html += '</table>';
 
-    res.json(html);
+    res.send(html);
   } catch (err) {
     console.error('Error querying the database:', err);
     res.status(500).send('Internal Server Error'+err);

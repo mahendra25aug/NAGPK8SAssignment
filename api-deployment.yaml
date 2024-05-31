@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: mahendra25aug/api-service:v1
+        image: mahendra25aug/api-servicemynagpdemo:v2
         ports:
         - containerPort: 8080
         resources:
