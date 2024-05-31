@@ -45,8 +45,7 @@ app.get('/records', async (req, res) => {
 });
 
 app.get('/', async (req, res) => {
-  console.log(`Welcome`);
-  res.send('Welcome. I am ready sir.' + dbHost + dbName+ dbUser+dbPassword);
+  res.send('Welcome. I am ready with version 1.');
 
   });
 
