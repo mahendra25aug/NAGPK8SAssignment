@@ -1,4 +1,4 @@
-Readme
+
 GitHub URL: https://github.com/mahendra25aug/NAGPK8SAssignment
 
 DockerHub URL: https://hub.docker.com/repository/docker/mahendra25aug/api-servicemynagpdemo/general
